@@ -1,5 +1,6 @@
 ### how to test
 
+ - `npm install`
  - `npm start` - to start pm2 in cluster mode with 2 instances
  - `npm stop` - to stop pm2
  - `node index.js` - to start app without pm2
