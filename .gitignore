@@ -1,0 +1,30 @@
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+coverage
+
+pids
+logs
+results
+
+node_modules
+npm-debug.log
+
+# Project Specifics #
+#####################
+.project
+.idea
+.settings
+
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db

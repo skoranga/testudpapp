@@ -1,0 +1,16 @@
+{
+  "name": "testudpapp",
+  "version": "0.1.0",
+  "description": "node test app using pm2",
+  "author": "skoranga",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/pm2 start index.js -i 2",
+    "stop": "./node_modules/.bin/pm2 stop all",
+    "test": "ab -n 100 -c 10 http://localhost:8000/"
+  },
+  "dependencies": {
+    "express": "^4.3.0",
+    "pm2": "~0.12.0"
+  }
+}
